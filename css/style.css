@@ -1,0 +1,24 @@
+header{
+    width: 100%;
+}
+nav {
+    width: 73%;
+    padding: 1%;
+    border: 1px solid red;
+}
+nav li {
+    display: inline-block;
+    vertical-align: top; 
+}
+nav ul {
+    width: 50%;
+    margin-left: auto;
+
+}
+.logo img {
+    max-width: 23%;
+    padding: 1%;
+    border: 1px solid lightblue;
+    display: inline-block;
+    max-height: 70px;
+}
