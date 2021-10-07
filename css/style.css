@@ -2,22 +2,24 @@ header{
     width: 100%;
     display: flex;
 }
-nav {
+
+/* Navigation CSS */
+#navBar {
     display: flex;
-    padding: 1.5%;
-    border: 1px solid red;
-}
-.logo, nav {
+    flex-direction: row;
+    margin: 0px 5%;
+  }
+  #navBar h1 {
+    width: 25%;
+    font-weight: 500;
+  }
+  #navigation {
     display: flex;
-    height: 50px;
-    justify-content: center;
-    align-items: center;
     width: 50%;
-}
-.logo img {
-    max-width: 23%;
-    padding: 1%;
-    border: 1px solid lightblue;
-    display: inline-block;
-    max-height: 70px;
-}
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  #navigation p {
+    cursor: pointer;
+    text-decoration: none;
+  }
