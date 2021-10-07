@@ -1,19 +1,18 @@
 header{
     width: 100%;
+    display: flex;
 }
 nav {
-    width: 73%;
-    padding: 1%;
+    display: flex;
+    padding: 1.5%;
     border: 1px solid red;
 }
-nav li {
-    display: inline-block;
-    vertical-align: top; 
-}
-nav ul {
+.logo, .right {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
     width: 50%;
-    margin-left: auto;
-
 }
 .logo img {
     max-width: 23%;
