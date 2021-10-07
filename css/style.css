@@ -9,14 +9,11 @@ header{
     flex-direction: row;
     margin: 0px 5%;
   }
-  #navBar h1 {
-    width: 25%;
-    font-weight: 500;
-  }
+
   #navigation {
     display: flex;
-    width: 50%;
-    align-items: center;
+    width:100%;
+    align-items: flex-start;
     justify-content: space-evenly;
   }
   #navigation p {
