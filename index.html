@@ -32,27 +32,26 @@
 </head>
 <body>
     <header>
-            
-         <nav id="navBar">
-             <div class="logo">
-                <img src="images/jackie-ly-logo.png" alt="Jackie Ly logo">
+        <div class="topnav" id="myTopnav">
+            <a href="index.html"><img src="images/jackie-ly-logo.png" id="logo"></a>
+            <div id="nav" class="flex-container-nav">
+                <a href="/case-studies" class="responsive">CASE STUDIES</a>
+                <a href="/about" class="responsive">ABOUT JACKIE</a>
+                <a href="#contact" class="responsive">CONTACT INFO</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
             </div>
-            <div id="navigation">
-                  <p>CASE STUDIES</p>
-                  <p>ABOUT JACKIE</p>
-                  <p>CONTACT INFO</p>
-            </div>
-
-        </nav>
+        </div>
     
     </header>
 
     <div id="wrapper">
         </section id="hero">
             <h1 class="hero">Hello World!</h1>
-            <img class="heroimg1" src="" alt="Hero image 1">
-            <img class="heroimg2" src="" alt="Hero image 2">
-            <img class="heroimg3" src="" alt="Hero image 3">
+            <img id="heroimg1" src="" alt="Hero image 1">
+            <img id="heroimg2" src="" alt="Hero image 2">
+            <img id="heroimg3" src="" alt="Hero image 3">
         </section><!--END hero-->
 
 
@@ -82,5 +81,16 @@
     </div><!--END wrapper-->
 </body>
 
+<!-- Navigation Responsive Toggle-->
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "topnav") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
 
 </html>
