@@ -22,7 +22,7 @@ a {
 
 /*Header Nav*/
 header {
-  padding: 2% 1% 1%;
+  padding: 1.5% 1% 1%;
 }
 #logo {
   width: auto;
@@ -160,7 +160,7 @@ footer {
 }
 
 
-@media screen and (max-width: 949px) {
+@media screen and (max-width: 1249px) {
   #logo {
     padding: 2%;
     position:initial
