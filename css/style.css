@@ -34,7 +34,7 @@ header {
 .flex-container-nav {
   display: flex;
   flex-direction: row; 
-  justify-content: space-around;
+  justify-content: space-evenly;
   float: right;
   width: 65%;
 }
